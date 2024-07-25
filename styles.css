@@ -1,6 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 } 
 .top-content, .footer {
     background-color: #1F2937;
@@ -133,3 +133,31 @@ button {
     justify-content: center;
     width: 20%;
 }
+
+.quote_section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    padding: 5% 20%;
+    gap: 0;
+}
+
+.quote_text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+
+.quote_citation {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
