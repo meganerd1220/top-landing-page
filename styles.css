@@ -1,6 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 } 
 .top-content, .footer {
     background-color: #1F2937;
@@ -75,6 +75,9 @@ button {
     font-weight: bold;
     font-size: 16px;
     padding: 8px 30px;
+}
+
+.sign_up_top_button {
     border: 0;
     margin-top: 6px;
 }
@@ -161,3 +164,54 @@ button {
     margin: 0;
 }
 
+.sign_up_header {
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+    display: flex;
+}
+
+.sign_up_subtext {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 0;
+    display: flex;
+}
+
+.sign_up_container {
+    background-color: #3B82F6;
+    /* margin: 16px 10%; */
+    justify-content: space-between;
+    border-radius: 8px;
+    flex-flow: row nowrap;
+    /* align-items: baseline; */
+}
+
+.sign_up_section {
+    margin: 100px 40px;
+}
+
+.sign_up_bottom_button {
+    border: 2px solid #F9FAF8;
+    display: flex;
+    flex-direction: row;
+}
+
+.sign_up_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-basis: 40%;
+}
+
+.sign_up_left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-basis: 20%;
+    flex-shrink: 1;
+    margin-right: 0;
+}
